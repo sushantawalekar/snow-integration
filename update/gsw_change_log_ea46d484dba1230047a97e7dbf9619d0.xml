@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2018-10-29 09:47:43</change_date>
+        <changed_by display_value="SUSHANT AWALEKAR">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <content display_value="Disabling SSLv2/SSLv3 ">e3287b6311632200964f016bcc1bdd01</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-29 09:47:43</sys_created_on>
+        <sys_id>ea46d484dba1230047a97e7dbf9619d0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2018-10-29 09:47:43</sys_name>
+        <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+        <sys_update_name>gsw_change_log_ea46d484dba1230047a97e7dbf9619d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-29 09:47:43</sys_updated_on>
+        <type>2</type>
+    </gsw_change_log>
+</record_update>

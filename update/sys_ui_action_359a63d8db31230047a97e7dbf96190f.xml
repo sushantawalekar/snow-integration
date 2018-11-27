@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint>send to jira</hint>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Send To JIRA</name>
+        <onclick>sendToJira()</onclick>
+        <order>100</order>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+		var IssueKey = current.x_288490_jira_app_linked_jira_issue;
+		if(IssueKey==''){
+		var sysId = current.sys_id;
+		var short_desc = current.short_description;
+		var request = new sn_ws.RESTMessageV2();	request.setEndpoint('http://95.216.172.105:8080/rest/incidenttoissue/1/incident/issuecreate.json');
+		request.setHttpMethod('POST');
+		//Eg. UserName="admin", Password="admin" for this code sample.
+		var user = 'admin';
+		var password = 'lab@123';
+
+		request.setBasicAuth(user,password);
+		request.setRequestHeader("Accept","application/json");
+		request.setRequestHeader('Content-Type','application/json');request.setRequestBody("{\"short_description\":\""+short_desc+"\",\"project_key\":\"SNOW\",\"Sys_id\":\""+sysId+"\"}");
+			var response = request.execute();
+			jsonReponse = JSON.parse(response.getBody());
+			gs.info("val:"+response.getBody());
+			current.x_288490_jira_app_linked_jira_issue = jsonReponse.issue_key;
+			current.update();
+		}else{
+			gs.addErrorMessage('Incident is already linked with Iira Issue '+current.x_288490_jira_app_linked_jira_issue);
+		}
+})(current, previous);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-12 06:10:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>359a63d8db31230047a97e7dbf96190f</sys_id>
+        <sys_mod_count>156</sys_mod_count>
+        <sys_name>Send To JIRA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+        <sys_update_name>sys_ui_action_359a63d8db31230047a97e7dbf96190f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-26 11:31:52</sys_updated_on>
+        <table>incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

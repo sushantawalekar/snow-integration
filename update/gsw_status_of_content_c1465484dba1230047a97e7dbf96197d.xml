@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="gsw_status_of_content">
+    <gsw_status_of_content action="INSERT_OR_UPDATE">
+        <best_practice_allowed_ever>0</best_practice_allowed_ever>
+        <checksum/>
+        <content display_value="Input Validation">8aa4836711232200964f016bcc1bdd10</content>
+        <effective_weight>1</effective_weight>
+        <more_info_visited>false</more_info_visited>
+        <previous_status>0</previous_status>
+        <progress>90</progress>
+        <related_log_entry display_value="2018-11-04 02:01:36">10031ff9db21230047a97e7dbf96197d</related_log_entry>
+        <status>1</status>
+        <sys_class_name>gsw_status_of_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-29 09:47:37</sys_created_on>
+        <sys_id>c1465484dba1230047a97e7dbf96197d</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+        <sys_update_name>gsw_status_of_content_c1465484dba1230047a97e7dbf96197d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-11-04 10:02:30</sys_updated_on>
+    </gsw_status_of_content>
+</record_update>

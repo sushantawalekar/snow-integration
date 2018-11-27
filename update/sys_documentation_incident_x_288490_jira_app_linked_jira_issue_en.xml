@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_288490_jira_app_linked_jira_issue" label="Linked Jira issue" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_288490_jira_app_linked_jira_issue</element>
+            <help/>
+            <hint/>
+            <label>Linked Jira issue</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>Linked Jira issues</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-21 17:27:15</sys_created_on>
+            <sys_id>ea0c5067dbb5630047a97e7dbf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Linked Jira issue</sys_name>
+            <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+            <sys_update_name>sys_documentation_incident_x_288490_jira_app_linked_jira_issue_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-21 17:27:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

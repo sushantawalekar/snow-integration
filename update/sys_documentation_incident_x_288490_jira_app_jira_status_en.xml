@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_288490_jira_app_jira_status" label="JIRA Status" language="en" table="incident">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_288490_jira_app_jira_status</element>
+            <help/>
+            <hint/>
+            <label>JIRA Status</label>
+            <language>en</language>
+            <name>incident</name>
+            <plural>JIRA Status</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-29 04:58:56</sys_created_on>
+            <sys_id>98349737db11230047a97e7dbf961907</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>JIRA Status</sys_name>
+            <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+            <sys_update_name>sys_documentation_incident_x_288490_jira_app_jira_status_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-12 06:37:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

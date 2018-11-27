@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true,all_tables.query_hints=true,hasWorkflow=true,live_feed=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="64" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="JIRA Status" max_length="100" name="x_288490_jira_app_jira_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Linked Jira issue" max_length="40" name="x_288490_jira_app_linked_jira_issue" read_only="true" type="string"/>
+    </element>
+</database>

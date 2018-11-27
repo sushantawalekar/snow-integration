@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+    "short_description" : "testtt",&#13;
+    "project_key" : "TEST",&#13;
+    "Sys_id" : "31d3b99adb59230047a97e7dbf9619de"&#13;
+}</content>
+        <function_name>ISSUE POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Demo_jira [ ISSUE POST ]</qualified_name>
+        <rest_endpoint>http://95.216.172.105:8080/rest/incidenttoissue/1/incident/issuecreate.json</rest_endpoint>
+        <rest_message display_value="Demo_jira">83fbb8b2dbb1230047a97e7dbf961913</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-19 11:52:13</sys_created_on>
+        <sys_id>8b2cbcf2dbb1230047a97e7dbf961918</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>ISSUE POST</sys_name>
+        <sys_package display_value="jira_app" source="x_288490_jira_app">640a3b22db15630047a97e7dbf961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="jira_app">640a3b22db15630047a97e7dbf961962</sys_scope>
+        <sys_update_name>sys_rest_message_fn_8b2cbcf2dbb1230047a97e7dbf961918</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-21 11:57:32</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
